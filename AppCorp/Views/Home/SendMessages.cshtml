@@ -1,0 +1,38 @@
+﻿@model List<SendMessages>
+
+
+@{
+    ViewData["Title"] = "Send Messages";
+}
+
+@using (Html.BeginForm("SendMessages", "Home", new{ pageNumber =  ViewBag.PageNumber }, FormMethod.Post))
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">UserName</th>
+                <th scope="col">Mobile Number</th>
+                <th scope="col">Messgae</th>
+            </tr>
+        </thead>
+        <tbody>
+        @for(int i=0; i < Model.Count; i++)
+            {
+            <tr>
+                @Html.HiddenFor(m => m[i].UserId)
+                @Html.HiddenFor(m => m[i].UserName)
+                @Html.HiddenFor(m => m[i].MobileNumber)
+                <td>@Html.DisplayFor(m => m[i].UserName)</td>
+                <td>@Html.ValueFor(m => m[i].MobileNumber)</td>
+                <td>@Html.TextAreaFor(m => m[i].Message)</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="form-group">
+        <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+    </div>
+}
+
+

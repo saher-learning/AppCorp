@@ -1,0 +1,10 @@
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb
+E:\Learning\AppCorp\AppCorp\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
